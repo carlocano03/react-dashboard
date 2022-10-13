@@ -15,12 +15,13 @@ const App = () => {
     setSidebarOpen(false);
   }
 
-
   return (
-    <div className="container">
-      <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
-      <Main />
-      <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
+    <div className="container-fluid">
+      <div className="container">
+        <Navbar sidebarOpen={sidebarOpen} openSidebar={openSidebar} />
+        <Main />
+        <Sidebar sidebarOpen={sidebarOpen} closeSidebar={closeSidebar} />
+      </div>
     </div>
   );
 }

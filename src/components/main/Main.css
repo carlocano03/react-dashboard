@@ -44,7 +44,9 @@ main {
     justify-content: space-around;
     height: 70px;
     padding: 25px;
-    border-radius: 5px;
+    border-radius: 2px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     background: #ffffff;
     box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #ffffff;
 }
@@ -64,6 +66,8 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     margin-top: 50px;
+    gap: 30px;
+    margin: 20px 0;
 }
 
 .charts__left {
@@ -185,9 +189,15 @@ main {
         gap: 10px;
         margin-bottom: 0;
     }
-
+    
     .charts {
         grid-template-columns: 1fr;
         margin-top: 30px;
+    }
+
+    .charts__right__cards {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 0;
     }
 }
