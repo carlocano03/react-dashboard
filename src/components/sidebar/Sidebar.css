@@ -1,7 +1,7 @@
 #sidebar {
     background: #020509;
     grid-area: sidebar;
-    overflow-y: auto;
+    /* overflow-y: auto; */
     padding: 20px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
@@ -81,12 +81,16 @@
 .sidebar__logout {
     margin-top: 20px;
     padding: 10px;
-    color: #e65061;
+    color: #fff;
+    background: #d63031;
+    border-radius: 2px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .sidebar__logout > a {
     text-decoration: none;
-    color: #e65061;
+    color: #fff;
     font-weight: 400;
     text-transform: uppercase;
 }
